@@ -1,0 +1,80 @@
+.about-section {
+  padding: 01rem;
+  text-align: left; /* Change to left for better alignment */
+  /* background-color: #ffffff; */
+  background-repeat: no-repeat;
+  font-family: 'Arial', sans-serif; /* Change to your preferred font family */
+  font-size: 2vw;                  /* Set the font size for the section */
+  line-height: 1.5; 
+  margin-top: 0px;
+  background-image: url(https://images.pexels.com/photos/1420709/pexels-photo-1420709.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-size: 100%;
+  
+}
+
+.about-section h2 {
+  font-size: 3rem;
+  color: #333;
+  margin:0px;
+  ;
+}
+
+.about-section p {
+  font-size: 1.2rem;
+  color: #666;
+  
+}
+
+.about_ {
+  display: flex;
+  align-items: center;
+}
+
+#intro {
+  flex: 1; /* Allow the text to take up available space */
+}
+
+#photo {
+  margin-left: 2rem; /* Add space between text and image */
+}
+h2{
+  text-align: left;
+}
+h3{
+  text-align: left;
+}
+.about-content {
+  /* font-size: 1.2vw; */
+  display: flex;                     
+  align-items: center;              
+  gap: 20px;  
+  margin-bottom: 1rem;                      
+}
+.about-image {
+  width: 110%;       /* Make the image responsive */
+  max-width: 200px; /* Set a maximum width */
+  height: auto;      /* Keep the aspect ratio */
+}
+@media (max-width: 768px) {
+  #myfont{
+    font-size: 18px;
+  }
+  .about-content {
+    flex-direction: column; /* Stack items */
+    align-items: flex-start; /* Align items to the start */
+    align-items: center;
+    
+  }
+  #about{
+    background-image: url(https://images.pexels.com/photos/1420709/pexels-photo-1420709.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2); 
+    background-size: cover;
+   
+  }
+
+  .about-image {
+    width: 50vw;       /* Make the image responsive */
+     /* Set a maximum width */
+    height: auto;      /* Keep the aspect ratio */
+   
+  }
+}

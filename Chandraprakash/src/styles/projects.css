@@ -1,0 +1,33 @@
+.projects-section {
+    padding: 2rem;
+    background-color: #f4f4f4;
+  }
+  
+  .projects-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .projects-section li {
+    margin-bottom: 1.5rem;
+  }
+  
+  .projects-section h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .projects-section h3 {
+    font-size: 1.5rem;
+    color: #007bff;
+  }
+  
+  .projects-section a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .projects-section a:hover {
+    text-decoration: underline;
+  }
+  

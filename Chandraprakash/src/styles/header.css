@@ -1,0 +1,47 @@
+header {
+    background-color: #282c34;
+    padding: 0.1vw;
+    text-align: right;
+    
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: right;
+    padding-right: 20vw;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    padding-right: 2vw;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #61dafb;
+  }
+  @media (max-width: 768px) {
+    header {
+      background-color: #282c34;
+      padding: 0.1vw;
+      text-align: center;
+      
+    }
+    nav ul {
+      display: flex;
+      justify-content: right;
+      padding-right: 20vw;
+      gap: 20px;
+      list-style: none;
+      
+      
+    }
+    h3{
+      font-size: medium;
+    }
+  }
